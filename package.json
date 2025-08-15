@@ -1,0 +1,52 @@
+{
+  "name": "@reactmonorepo/source",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {},
+  "private": true,
+  "devDependencies": {
+    "@nx/jest": "21.3.11",
+    "@nx/js": "21.3.11",
+    "@nx/react": "^21.3.11",
+    "@nx/vite": "21.3.11",
+    "@nx/web": "21.3.11",
+    "@swc-node/register": "~1.9.1",
+    "@swc/core": "~1.5.7",
+    "@swc/helpers": "~0.5.11",
+    "@testing-library/dom": "10.4.0",
+    "@testing-library/react": "16.1.0",
+    "@types/jest": "^30.0.0",
+    "@types/node": "^20.0.0",
+    "@types/react": "19.0.0",
+    "@types/react-dom": "19.0.0",
+    "@types/react-is": "19.0.0",
+    "@types/styled-components": "5.1.26",
+    "@vitejs/plugin-react": "^4.2.0",
+    "@vitest/ui": "^3.0.0",
+    "babel-jest": "^30.0.2",
+    "babel-plugin-styled-components": "1.10.7",
+    "jest": "^30.0.2",
+    "jest-environment-jsdom": "^30.0.2",
+    "jest-util": "^30.0.2",
+    "jiti": "2.4.2",
+    "jsdom": "~22.1.0",
+    "nx": "21.3.11",
+    "prettier": "^2.6.2",
+    "ts-jest": "^29.4.0",
+    "ts-node": "10.9.1",
+    "tslib": "^2.3.0",
+    "typescript": "~5.8.2",
+    "vite": "^6.0.0",
+    "vitest": "^3.0.0"
+  },
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "dependencies": {
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "react-is": "19.0.0",
+    "styled-components": "5.3.6"
+  }
+}
