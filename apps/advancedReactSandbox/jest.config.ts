@@ -1,5 +1,5 @@
 export default {
-  displayName: '@reactmonorepo/layoutComponents',
+  displayName: '@reactmonorepo/advancedReactSandbox',
   preset: '../../jest.preset.js',
   transform: {
     '^(?!.*\\.(js|jsx|ts|tsx|css|json)$)': '@nx/react/plugins/jest',
