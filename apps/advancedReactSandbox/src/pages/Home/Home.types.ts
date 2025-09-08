@@ -1,4 +1,4 @@
-import { ISectionContent } from '../../components';
+import { ISectionContent } from '@components';
 
 export interface IHomePage {
   tableOfContents: ISectionContent[];

@@ -1,22 +1,25 @@
-import { Route, Routes } from 'react-router-dom';
+import { Link, Route, Routes } from 'react-router-dom';
 import styled from 'styled-components';
 
 // PAGES
-import { HomePage } from '../pages';
+import { HomePage } from '@pages';
 
 // CONSTANTS
-import { tableOfContents } from '../constants';
+import { tableOfContents } from '@constants';
 
 export function App() {
   return (
-    <ContentContainer>
-      <Routes>
-        <Route
-          path="/"
-          element={<HomePage tableOfContents={tableOfContents} />}
-        />
-      </Routes>
-    </ContentContainer>
+    <>
+      <nav><Link to={'/'}>Home</Link></nav>
+      <ContentContainer>
+        <Routes>
+          <Route
+            path="/"
+            element={<HomePage tableOfContents={tableOfContents} />}
+          />
+        </Routes>
+      </ContentContainer>
+    </>
   );
 }
 

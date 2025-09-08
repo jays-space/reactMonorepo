@@ -1,8 +1,8 @@
 // TYPES
-import { IHomePage } from './Home.types';
+import { IHomePage } from '@pages';
 
 // COMPONENTS
-import { SectionContent } from '../../components';
+import { SectionContent } from '@components';
 
 const HomePage = ({tableOfContents}: IHomePage) => {
   return (
