@@ -1,5 +1,5 @@
 import { SectionContentProps } from '@components';
 
-export interface IHomePage {
+export interface IContentPage {
   tableOfContents: SectionContentProps[];
 }

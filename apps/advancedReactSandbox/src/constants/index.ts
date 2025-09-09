@@ -1,1 +1,1 @@
-export * from './tableOfContents.const';
+export * from './tableOfContents.constants';

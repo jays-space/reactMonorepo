@@ -1,0 +1,1 @@
+export {SplitScreenShowcase} from './SplitScreenShowcase';
